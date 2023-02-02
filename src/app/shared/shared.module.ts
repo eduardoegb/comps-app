@@ -8,11 +8,11 @@ import { DividerComponent } from './divider/divider.component';
   declarations: [
     DividerComponent
   ],
-  imports: [
-    CommonModule
-  ],
   exports: [
     DividerComponent
+  ],
+  imports: [
+    CommonModule
   ]
 })
 export class SharedModule { }
