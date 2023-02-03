@@ -16,7 +16,9 @@ import { SegmentComponent } from './segment/segment.component';
     TimesDirective,
     SegmentComponent
   ],
-  exports: [],
+  exports: [
+    TimesDirective
+  ],
   imports: [
     CommonModule,
     ElementsRoutingModule,
