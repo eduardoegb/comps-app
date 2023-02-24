@@ -6,12 +6,22 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { CollectionsRoutingModule } from './collections-routing.module';
 import { CollectionsHomeComponent } from './collections-home/collections-home.component';
 import { TableComponent } from './table/table.component';
+import { BiographyComponent } from './biography/biography.component';
+import { CompaniesComponent } from './companies/companies.component';
+import { PartnersComponent } from './partners/partners.component';
+import { TabsComponent } from './tabs/tabs.component';
+import { TabItemComponent } from './tabs/tab-item/tab-item.component';
 
 
 @NgModule({
   declarations: [
     CollectionsHomeComponent,
-    TableComponent
+    TableComponent,
+    BiographyComponent,
+    CompaniesComponent,
+    PartnersComponent,
+    TabsComponent,
+    TabItemComponent
   ],
   exports: [],
   imports: [
