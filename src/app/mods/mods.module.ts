@@ -3,13 +3,13 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from 'src/app/shared/shared.module';
 
 import { ModsRoutingModule } from './mods-routing.module';
-import { HomeModsComponent } from './home-mods/home-mods.component';
+import { ModsHomeComponent } from 'src/app/mods/mods-home/mods-home.component';
 import { ModalComponent } from './modal/modal.component';
 
 
 @NgModule({
   declarations: [
-    HomeModsComponent,
+    ModsHomeComponent,
     ModalComponent
   ],
   imports: [

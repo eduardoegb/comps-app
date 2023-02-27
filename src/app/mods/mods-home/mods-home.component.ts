@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-home-mods',
-  templateUrl: './home-mods.component.html',
-  styleUrls: ['./home-mods.component.css']
+  selector: 'app-mods-home',
+  templateUrl: './mods-home.component.html',
+  styleUrls: ['./mods-home.component.css']
 })
-export class HomeModsComponent {
+export class ModsHomeComponent {
   // @ts-ignore
   showModal: boolean;
 
