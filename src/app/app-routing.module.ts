@@ -17,13 +17,11 @@ const routes: Routes = [
     loadChildren: () => import('./views/views.module').then((m) => m.ViewsModule)
   },
   {
-    path: '',
-    component: HomeComponent
+    path: 'modules',
+    loadChildren: () => import('./mods/mods.module').then((m) => m.ModsModule)
   },
-  {
-    path: '**',
-    component: NotFoundComponent
-  }
+  { path: '', component: HomeComponent },
+  { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({

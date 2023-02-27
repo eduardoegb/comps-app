@@ -3,10 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ViewsHomeComponent } from 'src/app/views/views-home/views-home.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: ViewsHomeComponent
-  }
+  { path: '', component: ViewsHomeComponent }
 ];
 
 @NgModule({
