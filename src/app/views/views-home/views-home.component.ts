@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Item } from 'src/app/views/item-list/item-list-interfaces';
+import { Item } from 'src/app/views/item-list/item-list.interfaces';
 import { Stat } from 'src/app/views/statistics/statistics.interfaces';
 
 @Component({
