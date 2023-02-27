@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Item } from './item-list-interfaces';
+import { Item } from 'src/app/views/item-list/item-list.interfaces';
 
 @Component({
   selector: 'app-item-list',
